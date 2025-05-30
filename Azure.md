@@ -1,58 +1,57 @@
-# 💻 Criando e Configurando uma Máquina Virtual no Microsoft Azure
+# 💻 Creating and Configuring a Virtual Machine on Microsoft Azure
 
-Este repositório tem como objetivo documentar toda a experiência prática adquirida durante o laboratório da DIO sobre criação e configuração de máquinas virtuais na plataforma **Microsoft Azure**.
+This repository aims to document the hands-on experience gained during the DIO lab on creating and configuring virtual machines on the **Microsoft Azure** platform.
 
-## 1. Acessando o Portal do Azure
+## 1. Accessing the Azure Portal
 
-O primeiro passo é acessar o portal do Azure: [https://portal.azure.com](https://portal.azure.com)
+The first step is to access the Azure portal: [https://portal.azure.com](https://portal.azure.com)
 
-- Criar uma conta ou entrar com sua conta existente
-- Explorar o painel inicial
+- Create an account or sign in with your existing account  
+- Explore the initial dashboard
 
-**Imagem do portal do Azure:**
-![Portal do Azure](/images/portal-azure.png) <!-- [imagem] -->
-
----
-
-## 2. Criando uma Máquina Virtual
-
-Passos realizados:
-
-1. No menu do Azure, selecionar **"Máquinas Virtuais"**
-2. Clicar em **"Criar" > "Máquina Virtual"**
-3. Preencher os campos obrigatórios:
-   - Grupo de Recursos
-   - Nome da máquina
-   - Região
-   - Imagem (ex: Ubuntu Server 20.04 LTS)
-   - Tamanho da máquina
-   - Nome de usuário e senha/chave SSH
-4. Configurar regras de porta de entrada (ex: habilitar RDP ou SSH)
-
-**Imagem da criação da VM:**
-![Criação da VM](/images/criacao-vm.png) <!-- [imagem] -->
+**Azure Portal image:**  
+![Portal do Azure](/images/portal-azure.png) <!-- [image] -->
 
 ---
 
-## 3. Conectando à Máquina Virtual
+## 2. Creating a Virtual Machine
 
-- Acesso via SSH (Linux/macOS) ou RDP (Windows)
-- Copiar o endereço IP público gerado e usar o terminal ou cliente RDP
+Steps performed:
 
+1. In the Azure menu, select **"Virtual Machines"**
+2. Click **"Create" > "Virtual Machine"**
+3. Fill in the required fields:
+   - Resource Group
+   - Machine name
+   - Region
+   - Image (e.g., Ubuntu Server 20.04 LTS)
+   - VM size
+   - Username and password/SSH key
+4. Configure inbound port rules (e.g., enable RDP or SSH)
+
+**Virtual Machine creation image:**  
+![Criação da VM](/images/criacao-vm.png) <!-- [image] -->
+
+---
+
+## 3. Connecting to the Virtual Machine
+
+- Access via SSH (Linux/macOS) or RDP (Windows)  
+- Copy the generated public IP address and use the terminal or RDP client
+
+```bash
+ssh username@public_ip
 ```
-ssh nome_usuario@ip_publico
-```
 
-## 4. Dicas Importantes
-- Utilize grupos de segurança de rede para controlar o tráfego de entrada e saída
+4. Important Tips
+Use network security groups to control inbound and outbound traffic
 
-- Desligue as máquinas quando não estiver utilizando para evitar cobranças
+Shut down VMs when not in use to avoid unnecessary charges
 
-- Faça snapshots da VM antes de grandes mudanças
+Take VM snapshots before making major changes
 
-- Automatize tarefas usando scripts de inicialização
+Automate tasks using startup scripts
 
 📎 Referências
-[Documentação Oficial da Azure](https://learn.microsoft.com/pt-br/azure/)
-
+[Official Azure Documentation](learn.microsoft.com/en-us/azure/)
 [Curso na DIO - Cloud Com Inteligência Artificial](https://web.dio.me/track/xp-inc-cloud-com-inteligencia-artificial)
