@@ -1,3 +1,3 @@
 This repository is to save some courses documentations
 
-- [💻 Criando e Configurando uma Máquina Virtual no Microsoft Azure](./Azure.md).
+- [💻 Creating and Configuring a Virtual Machine on Microsoft Azure](./Azure.md).
