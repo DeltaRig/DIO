@@ -17,7 +17,7 @@ The goal is to input a credit card number and return the corresponding **card br
 - **JavaScript** for core logic
 - **Regex** patterns for identifying card brands
 - **Luhn Algorithm** for card number validation
-- Developed with assistance from **GitHub Copilot**, showcasing how AI can boost productivity and suggest code efficiently
+- Developed with assistance from **GitHub Copilot**, showcasing how use GitHub Copilot
 
 ---
 
