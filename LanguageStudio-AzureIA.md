@@ -1,9 +1,5 @@
 # Azure AI Lab — Speech Studio and Language Studio
 
-This lab aims to practice and deepen the use of **Azure Speech Studio** and **Language Studio**, focusing on speech and natural language analysis. The goal is to develop practical skills in building voice and language-based AI solutions.
-
-The **deliverable** is a well-organized repository containing **notes and insights** gained during the practice, serving as a reference for study and future implementations.
-
 ---
 
 ## Azure AI
