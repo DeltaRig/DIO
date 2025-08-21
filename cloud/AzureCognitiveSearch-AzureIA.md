@@ -43,6 +43,7 @@ We work in the Technology department of a national coffee store. We'll use AI Se
 Click **+ Create** and set up a new search service.
 
 ![Create a search service](images/AISearch.png)  
+
 ![Create a search service](images/Createasearchservice.png)  
 
 ### 2. Select Pricing Tier  
