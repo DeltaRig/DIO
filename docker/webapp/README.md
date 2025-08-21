@@ -26,6 +26,8 @@ Build and run with Docker Compose:
 By default, the app will be available at:
 👉 http://localhost:8080
 
+![index page](index.png)
+
 ## ⚡ Docker & Compose basicsImage: Blueprint for your app (defined by the Dockerfile).
 
 - Container: Running instance of an image.
